@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    place-items: center;
+}
+
+.container {
+    border: 1px solid red;
+    display: flex;
+    max-width: 100%;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid black;
+    padding: 10px 20px;
+    flex: 1;
+    max-width: 35%;
+}
+
+button {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    transform: scale(1.03);
+}
+
+main {
+    flex: 1;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: 2px solid green;
+}
+
+h2 {
+    margin-block-start: 0.45em;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+#main div{
+    display: flex;
+    justify-content: space-between;
+}
