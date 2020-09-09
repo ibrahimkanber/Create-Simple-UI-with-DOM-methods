@@ -16,7 +16,7 @@ body {
 aside {
     display: flex;
     flex-direction: column;
-    border-right: 1px solid black;
+    border-right: 1px solid red;
     padding: 10px 20px;
     flex: 1;
     max-width: 35%;
@@ -35,7 +35,8 @@ main {
     flex: 1;
     padding-right: 10px;
     padding-left: 10px;
-    border: 2px solid green;
+    
+    border-left-color: none;
 }
 
 h2 {
@@ -48,4 +49,9 @@ h2 {
 #main div{
     display: flex;
     justify-content: space-between;
+}
+
+.total{
+    border:1px solid red;
+    margin-top:50px;
 }
